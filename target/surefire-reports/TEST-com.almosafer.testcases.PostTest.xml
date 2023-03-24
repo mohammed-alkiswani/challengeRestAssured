@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.almosafer.testcases.PostTest" time="2.206" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\test-classes;C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\classes;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ADMIN\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ADMIN\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ADMIN\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ADMIN\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ADMIN\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ADMIN\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Amman"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire7615050734218477532\surefirebooter-20230324171720754_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire7615050734218477532 2023-03-24T17-17-20_413-jvmRun1 surefire-20230324171720754_1tmp surefire_0-20230324171720754_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\test-classes;C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\classes;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ADMIN\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ADMIN\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ADMIN\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ADMIN\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ADMIN\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ADMIN\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire7615050734218477532\surefirebooter-20230324171720754_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ADMIN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\ADMIN\AppData\Local\Android\Sdk\tools;C:\Users\ADMIN\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\ADMIN\AppData\Local\Android\Sdk\tools\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ADMIN\OneDrive\Desktop\Maven\apache-maven-3.9.1\bin;C:\Users\ADMIN\scoop\shims;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;;C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ADMIN\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verification_reviews" classname="com.almosafer.testcases.PostTest" time="1.408">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.almosafer.com/api/review/retrieve
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=apikey-hotel
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productId": "1492981",
+    "sortBy": "Newest"
+}
+HTTP/1.1 200 OK
+Date: Fri, 24 Mar 2023 15:17:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Real-IP: 109.107.230.202
+CF-Ray: 7acfe191cc2ecde7-AMM
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+CF-Cache-Status: DYNAMIC
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'self'; frame-ancestors https://almosafer.com https://*.almosafer.com https://z2.le.liveperson.net;
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+X-GeoIP-City: Irbid
+X-GeoIP-Country: Jordan
+X-GeoIP-Country-Code: JO
+X-GeoIP-Region: Irbid
+x-real-client-ip: 109.107.230.202
+X-XSS-Protection: 1; mode=block
+Set-Cookie: __cf_bm=YBLg11r9VrbPudl.xae_XOo675duaWd8m7wbnkpIdRk-1679671048-0-AdQ2vv8fG60TNTbIfmcM0an8MwI1SKfe/oxk1UF6hZumBwjtsTQI8uEgNfkB51xWkUAdVOPKVTRHV5fvWFGW0uc=; path=/; expires=Fri, 24-Mar-23 15:47:28 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "productId": "1492981",
+    "paging": {
+        "totalResults": 67,
+        "totalPages": 7,
+        "pageSize": 10,
+        "currentPageNumber": 0,
+        "nextPageUrl": "pageNo=1&pageSize=10&filters=&sortBy=Newest&imageOnly&totalResults=67&totalPages=7"
+    },
+    "aggregate": {
+        "averageRating": 7.6,
+        "summary": {
+            "en": "Very good",
+            "ar": "جيد جدا"
+        },
+        "reviewCount": 67,
+        "subCategories": {
+            "amenities": 7.5,
+            "rooms": 7.7,
+            "service": 7.3,
+            "valueForMoney": 7.3,
+            "location": 7.8,
+            "cleanliness": 7.7
+        }
+    },
+    "config": {
+        "flagTypes": {
+            "profane": {
+                "en": "Profanity",
+                "ar": "لغة نابية"
+            },
+            "wrong_product": {
+                "en": "Wrong property or hotel",
+                "ar": "ملكية أو فندق خاطئ"
+            },
+            "spam": {
+                "en": "Spam",
+                "ar": "بريد مؤذي"
+            },
+            "duplicate": {
+                "en": "Duplicate",
+                "ar": "مكرر"
+            },
+            "copyright": {
+                "en": "Copyright",
+                "ar": "حقوق التأليف"
+            },
+            "other": {
+                "en": "Other",
+                "ar": "أخرى"
+            }
+        }
+    },
+    "reviews": [
+        {
+            "id": "64196b37f6a46c2587c46c7f",
+            "detail": {
+                "likable": "موقع الفندق ، الهدوء ، الاستقبال\n",
+                "unlikable": "المواقف ضيقة نوعاً ما ، الموكيت يحتاج الى تنظيف عميق",
+                "headline": "جيدة بشكل عام ",
+                "translatedLikable": "Hotel location, quiet, reception\n",
+                "translatedUnlikable": "The parking spaces are a bit narrow, and the carpeting needs a deep cleaning",
+                "translatedHeadline": "Overall good",
+                "name": "Abdullah",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-03-21T08:30:47.035",
+                "updatedDate": "2023-03-21T11:41:53.052",
+                "travelType": "أزواج",
+                "travelPurpose": "عمل",
+                "checkout": "2023-03-21",
+                "checkoutPhrase": "3 days ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 8.0,
+                "summary": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                }
+            }
+        },
+        {
+            "id": "64103d84f8a992380430b1ec",
+            "detail": {
+                "likable": "The space of the room",
+                "unlikable": "The parking area",
+                "headline": "Good experience ",
+                "translatedLikable": "مساحة الغرفة",
+                "translatedUnlikable": "منطقة وقوف السيارات",
+                "translatedHeadline": "تجربة جيدة",
+                "name": "Roaa",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-03-14T09:25:24.577",
+                "updatedDate": "2023-03-14T10:38:12.028",
+                "travelType": "Friends",
+                "travelPurpose": "Leisure",
+                "nationality": "Saudi Arabia",
+                "checkout": "2023-03-07",
+                "checkoutPhrase": "2 weeks ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        },
+        {
+            "id": "64100f64f6a46c2587c46b1d",
+            "detail": {
+                "likable": "موقعه",
+                "unlikable": "وسادة النوم سيئة جدا جدا جدا كما ان الجاهزية عند الاستلام سيء",
+                "headline": "جيدة",
+                "translatedLikable": "Its location",
+                "translatedUnlikable": "The sleeping pillow is very, very, very bad, and the readiness upon checking in is poor",
+                "translatedHeadline": "good",
+                "name": "Basem",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-03-14T06:08:36.239",
+                "updatedDate": "2023-03-14T07:57:14.621",
+                "travelType": "العائلة",
+                "travelPurpose": "ترفيهية",
+                "nationality": "المملكة العربية السعودية",
+                "checkout": "2023-03-10",
+                "checkoutPhrase": "2 weeks ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 6.0,
+                "summary": {
+                    "en": "Average",
+                    "ar": "متوسط"
+                }
+            }
+        },
+        {
+            "id": "63f1d0d33039530e26001e70",
+            "detail": {
+                "likable": "موقعه",
+                "unlikable": "نظافته",
+                "headline": "ممتاز",
+                "translatedLikable": "Its location",
+                "translatedUnlikable": "Its cleanliness",
+                "translatedHeadline": "Excellent",
+                "name": "Hazem",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-02-19T07:33:39.757",
+                "updatedDate": "2023-02-19T11:23:57.225",
+                "travelType": "العائلة",
+                "travelPurpose": "ترفيهية",
+                "nationality": "المملكة العربية السعودية",
+                "checkout": "2023-02-15",
+                "checkoutPhrase": "a month ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        },
+        {
+            "id": "63edc871b4f4bc224a32894c",
+            "detail": {
+                "likable": "مرفقات الغرفة ",
+                "unlikable": "يحتاج تجديد ارضية الفرش",
+                "headline": "الفندق ممتاز",
+                "translatedLikable": "Room facilities",
+                "translatedUnlikable": "The floor furniture need to be renovated",
+                "translatedHeadline": "The hotel is excellent",
+                "name": "Nasser",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-02-16T06:08:49.549",
+                "updatedDate": "2023-02-16T13:55:25.488",
+                "travelType": "العائلة",
+                "travelPurpose": "ترفيهية",
+                "nationality": "المملكة العربية السعودية",
+                "checkout": "2023-02-12",
+                "checkoutPhrase": "a month ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 8.0,
+                "summary": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                }
+            }
+        },
+        {
+            "id": "63db53763039530e26001c70",
+            "detail": {
+                "likable": "حسن الاستقبال والمعامله ونظافة المكان ",
+                "unlikable": "لا تعليق ",
+                "headline": "جيده",
+                "translatedLikable": "Good reception, treatment and cleanliness of the place ",
+                "translatedUnlikable": "No comment ",
+                "translatedHeadline": "Good",
+                "name": "Ali",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-02-02T06:08:54.956",
+                "updatedDate": "2023-02-02T08:17:58.267",
+                "travelType": "منفرد",
+                "travelPurpose": "عمل",
+                "checkout": "2023-01-31",
+                "checkoutPhrase": "a month ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        },
+        {
+            "id": "63ce8771497a2d29c09d023f",
+            "detail": {
+                "likable": "Location",
+                "unlikable": "Quality and services",
+                "headline": "Never again ",
+                "translatedLikable": "الموقع",
+                "translatedUnlikable": "الجودة والخدمات",
+                "translatedHeadline": "لن يحدث مرة أخرى أبدًا ",
+                "name": "Abdulla",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-01-23T13:11:13.770",
+                "updatedDate": "2023-01-23T13:41:24.764",
+                "travelType": "Family",
+                "travelPurpose": "Leisure",
+                "checkout": "2023-01-21",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 2.0,
+                "summary": {
+                    "en": "Fair",
+                    "ar": "مقبول"
+                }
+            }
+        },
+        {
+            "id": "63ce554e0f4c1c3ecc05eb98",
+            "detail": {
+                "likable": "Room size only and location",
+                "unlikable": "Housekeeping ,room service, hotel duty manager .",
+                "headline": "Very bad housekeeping there is only one employee ",
+                "translatedLikable": "حجم الغرفة والموقع فقط",
+                "translatedUnlikable": "خدمة تنظيف الغرف، خدمة الغرف، مدير الفندق المناوب.",
+                "translatedHeadline": "خدمة تنظيف الغرف سيئة للغاية، هناك موظف واحد فقط. ",
+                "name": "Samer",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-01-23T09:37:18.392",
+                "updatedDate": "2023-01-23T11:51:07.380",
+                "travelType": "Family",
+                "travelPurpose": "Leisure",
+                "nationality": "Saudi Arabia",
+                "checkout": "2023-01-23",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 2.0,
+                "summary": {
+                    "en": "Fair",
+                    "ar": "مقبول"
+                }
+            }
+        },
+        {
+            "id": "63c6aaf3f8342333ba23e125",
+            "detail": {
+                "likable": "Room space and rate. Staff",
+                "unlikable": "1- The main entrance is steep for the car. \n2- We have to call for the room to get cleaned since the floor staff does not check the Roma for the tag to clean the room",
+                "headline": "Good",
+                "translatedLikable": "مساحة الغرفة والسعر. الموظفين",
+                "translatedUnlikable": "1- المدخل الرئيسي شديد الانحدار للسيارة. \n2- يجب أن نطلب تنظيف الغرفة لأن موظفي الطابق لا يفحصون بحثًا عن العلامة لتنظيف الغرفة",
+                "translatedHeadline": "جيد",
+                "name": "Khalid",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-01-17T14:04:35.335",
+                "updatedDate": "2023-01-17T14:51:20.047",
+                "travelType": "Family",
+                "travelPurpose": "Leisure",
+                "nationality": "Saudi Arabia",
+                "checkout": "2023-01-17",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 8.0,
+                "summary": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                }
+            }
+        },
+        {
+            "id": "63c2f3493039530e26001a96",
+            "detail": {
+                "likable": "الاثاث ",
+                "unlikable": "الموقع ",
+                "headline": "ممتازة",
+                "translatedLikable": "furniture ",
+                "translatedUnlikable": "location",
+                "translatedHeadline": "excellent",
+                "name": "Seraj",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-01-14T18:24:09.559",
+                "updatedDate": "2023-01-15T14:44:59.237",
+                "travelType": "منفرد",
+                "travelPurpose": "عمل",
+                "checkout": "2023-01-09",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verification_productId" classname="com.almosafer.testcases.PostTest" time="0.786">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.almosafer.com/api/review/retrieve
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-api-key=apikey-hotel
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productId": "1492981",
+    "sortBy": "Newest"
+}
+HTTP/1.1 200 OK
+Date: Fri, 24 Mar 2023 15:17:29 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Real-IP: 109.107.230.202
+CF-Ray: 7acfe198cf5ecdff-AMM
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+CF-Cache-Status: DYNAMIC
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'self'; frame-ancestors https://almosafer.com https://*.almosafer.com https://z2.le.liveperson.net;
+Referrer-Policy: no-referrer-when-downgrade
+X-Content-Type-Options: nosniff
+X-GeoIP-City: Irbid
+X-GeoIP-Country: Jordan
+X-GeoIP-Country-Code: JO
+X-GeoIP-Region: Irbid
+x-real-client-ip: 109.107.230.202
+X-XSS-Protection: 1; mode=block
+Set-Cookie: __cf_bm=9gWpggwPAviL_kVwqV0VOWBigfclgMkgcARElvXK0_w-1679671049-0-AcPQCW5AZnPx7NbXLXjvl9ttkhbJsnXqsdndryFhXzFjBoU+6gLfvPUyOpzVMtod8uAJWmOmbfJBIgmraLCJpvc=; path=/; expires=Fri, 24-Mar-23 15:47:29 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "productId": "1492981",
+    "paging": {
+        "totalResults": 67,
+        "totalPages": 7,
+        "pageSize": 10,
+        "currentPageNumber": 0,
+        "nextPageUrl": "pageNo=1&pageSize=10&filters=&sortBy=Newest&imageOnly&totalResults=67&totalPages=7"
+    },
+    "aggregate": {
+        "averageRating": 7.6,
+        "summary": {
+            "en": "Very good",
+            "ar": "جيد جدا"
+        },
+        "reviewCount": 67,
+        "subCategories": {
+            "amenities": 7.5,
+            "rooms": 7.7,
+            "service": 7.3,
+            "valueForMoney": 7.3,
+            "location": 7.8,
+            "cleanliness": 7.7
+        }
+    },
+    "config": {
+        "flagTypes": {
+            "profane": {
+                "en": "Profanity",
+                "ar": "لغة نابية"
+            },
+            "wrong_product": {
+                "en": "Wrong property or hotel",
+                "ar": "ملكية أو فندق خاطئ"
+            },
+            "spam": {
+                "en": "Spam",
+                "ar": "بريد مؤذي"
+            },
+            "duplicate": {
+                "en": "Duplicate",
+                "ar": "مكرر"
+            },
+            "copyright": {
+                "en": "Copyright",
+                "ar": "حقوق التأليف"
+            },
+            "other": {
+                "en": "Other",
+                "ar": "أخرى"
+            }
+        }
+    },
+    "reviews": [
+        {
+            "id": "64196b37f6a46c2587c46c7f",
+            "detail": {
+                "likable": "موقع الفندق ، الهدوء ، الاستقبال\n",
+                "unlikable": "المواقف ضيقة نوعاً ما ، الموكيت يحتاج الى تنظيف عميق",
+                "headline": "جيدة بشكل عام ",
+                "translatedLikable": "Hotel location, quiet, reception\n",
+                "translatedUnlikable": "The parking spaces are a bit narrow, and the carpeting needs a deep cleaning",
+                "translatedHeadline": "Overall good",
+                "name": "Abdullah",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-03-21T08:30:47.035",
+                "updatedDate": "2023-03-21T11:41:53.052",
+                "travelType": "أزواج",
+                "travelPurpose": "عمل",
+                "checkout": "2023-03-21",
+                "checkoutPhrase": "3 days ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 8.0,
+                "summary": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                }
+            }
+        },
+        {
+            "id": "64103d84f8a992380430b1ec",
+            "detail": {
+                "likable": "The space of the room",
+                "unlikable": "The parking area",
+                "headline": "Good experience ",
+                "translatedLikable": "مساحة الغرفة",
+                "translatedUnlikable": "منطقة وقوف السيارات",
+                "translatedHeadline": "تجربة جيدة",
+                "name": "Roaa",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-03-14T09:25:24.577",
+                "updatedDate": "2023-03-14T10:38:12.028",
+                "travelType": "Friends",
+                "travelPurpose": "Leisure",
+                "nationality": "Saudi Arabia",
+                "checkout": "2023-03-07",
+                "checkoutPhrase": "2 weeks ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        },
+        {
+            "id": "64100f64f6a46c2587c46b1d",
+            "detail": {
+                "likable": "موقعه",
+                "unlikable": "وسادة النوم سيئة جدا جدا جدا كما ان الجاهزية عند الاستلام سيء",
+                "headline": "جيدة",
+                "translatedLikable": "Its location",
+                "translatedUnlikable": "The sleeping pillow is very, very, very bad, and the readiness upon checking in is poor",
+                "translatedHeadline": "good",
+                "name": "Basem",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-03-14T06:08:36.239",
+                "updatedDate": "2023-03-14T07:57:14.621",
+                "travelType": "العائلة",
+                "travelPurpose": "ترفيهية",
+                "nationality": "المملكة العربية السعودية",
+                "checkout": "2023-03-10",
+                "checkoutPhrase": "2 weeks ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 6.0,
+                "summary": {
+                    "en": "Average",
+                    "ar": "متوسط"
+                }
+            }
+        },
+        {
+            "id": "63f1d0d33039530e26001e70",
+            "detail": {
+                "likable": "موقعه",
+                "unlikable": "نظافته",
+                "headline": "ممتاز",
+                "translatedLikable": "Its location",
+                "translatedUnlikable": "Its cleanliness",
+                "translatedHeadline": "Excellent",
+                "name": "Hazem",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-02-19T07:33:39.757",
+                "updatedDate": "2023-02-19T11:23:57.225",
+                "travelType": "العائلة",
+                "travelPurpose": "ترفيهية",
+                "nationality": "المملكة العربية السعودية",
+                "checkout": "2023-02-15",
+                "checkoutPhrase": "a month ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        },
+        {
+            "id": "63edc871b4f4bc224a32894c",
+            "detail": {
+                "likable": "مرفقات الغرفة ",
+                "unlikable": "يحتاج تجديد ارضية الفرش",
+                "headline": "الفندق ممتاز",
+                "translatedLikable": "Room facilities",
+                "translatedUnlikable": "The floor furniture need to be renovated",
+                "translatedHeadline": "The hotel is excellent",
+                "name": "Nasser",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-02-16T06:08:49.549",
+                "updatedDate": "2023-02-16T13:55:25.488",
+                "travelType": "العائلة",
+                "travelPurpose": "ترفيهية",
+                "nationality": "المملكة العربية السعودية",
+                "checkout": "2023-02-12",
+                "checkoutPhrase": "a month ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 8.0,
+                "summary": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                }
+            }
+        },
+        {
+            "id": "63db53763039530e26001c70",
+            "detail": {
+                "likable": "حسن الاستقبال والمعامله ونظافة المكان ",
+                "unlikable": "لا تعليق ",
+                "headline": "جيده",
+                "translatedLikable": "Good reception, treatment and cleanliness of the place ",
+                "translatedUnlikable": "No comment ",
+                "translatedHeadline": "Good",
+                "name": "Ali",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-02-02T06:08:54.956",
+                "updatedDate": "2023-02-02T08:17:58.267",
+                "travelType": "منفرد",
+                "travelPurpose": "عمل",
+                "checkout": "2023-01-31",
+                "checkoutPhrase": "a month ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        },
+        {
+            "id": "63ce8771497a2d29c09d023f",
+            "detail": {
+                "likable": "Location",
+                "unlikable": "Quality and services",
+                "headline": "Never again ",
+                "translatedLikable": "الموقع",
+                "translatedUnlikable": "الجودة والخدمات",
+                "translatedHeadline": "لن يحدث مرة أخرى أبدًا ",
+                "name": "Abdulla",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-01-23T13:11:13.770",
+                "updatedDate": "2023-01-23T13:41:24.764",
+                "travelType": "Family",
+                "travelPurpose": "Leisure",
+                "checkout": "2023-01-21",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 2.0,
+                "summary": {
+                    "en": "Fair",
+                    "ar": "مقبول"
+                }
+            }
+        },
+        {
+            "id": "63ce554e0f4c1c3ecc05eb98",
+            "detail": {
+                "likable": "Room size only and location",
+                "unlikable": "Housekeeping ,room service, hotel duty manager .",
+                "headline": "Very bad housekeeping there is only one employee ",
+                "translatedLikable": "حجم الغرفة والموقع فقط",
+                "translatedUnlikable": "خدمة تنظيف الغرف، خدمة الغرف، مدير الفندق المناوب.",
+                "translatedHeadline": "خدمة تنظيف الغرف سيئة للغاية، هناك موظف واحد فقط. ",
+                "name": "Samer",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-01-23T09:37:18.392",
+                "updatedDate": "2023-01-23T11:51:07.380",
+                "travelType": "Family",
+                "travelPurpose": "Leisure",
+                "nationality": "Saudi Arabia",
+                "checkout": "2023-01-23",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 2.0,
+                "summary": {
+                    "en": "Fair",
+                    "ar": "مقبول"
+                }
+            }
+        },
+        {
+            "id": "63c6aaf3f8342333ba23e125",
+            "detail": {
+                "likable": "Room space and rate. Staff",
+                "unlikable": "1- The main entrance is steep for the car. \n2- We have to call for the room to get cleaned since the floor staff does not check the Roma for the tag to clean the room",
+                "headline": "Good",
+                "translatedLikable": "مساحة الغرفة والسعر. الموظفين",
+                "translatedUnlikable": "1- المدخل الرئيسي شديد الانحدار للسيارة. \n2- يجب أن نطلب تنظيف الغرفة لأن موظفي الطابق لا يفحصون بحثًا عن العلامة لتنظيف الغرفة",
+                "translatedHeadline": "جيد",
+                "name": "Khalid",
+                "sourceLocale": "en",
+                "translationLocale": "ar",
+                "createdDate": "2023-01-17T14:04:35.335",
+                "updatedDate": "2023-01-17T14:51:20.047",
+                "travelType": "Family",
+                "travelPurpose": "Leisure",
+                "nationality": "Saudi Arabia",
+                "checkout": "2023-01-17",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 8.0,
+                "summary": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                }
+            }
+        },
+        {
+            "id": "63c2f3493039530e26001a96",
+            "detail": {
+                "likable": "الاثاث ",
+                "unlikable": "الموقع ",
+                "headline": "ممتازة",
+                "translatedLikable": "furniture ",
+                "translatedUnlikable": "location",
+                "translatedHeadline": "excellent",
+                "name": "Seraj",
+                "sourceLocale": "ar",
+                "translationLocale": "en",
+                "createdDate": "2023-01-14T18:24:09.559",
+                "updatedDate": "2023-01-15T14:44:59.237",
+                "travelType": "منفرد",
+                "travelPurpose": "عمل",
+                "checkout": "2023-01-09",
+                "checkoutPhrase": "2 months ago"
+            },
+            "metric": {
+                "helpfulVotes": 0,
+                "notHelpfulVotes": 0,
+                "rating": 10.0,
+                "summary": {
+                    "en": "Superb",
+                    "ar": "رائع"
+                }
+            }
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>

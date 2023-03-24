@@ -1,0 +1,7 @@
+com\almosafer\apis\PostApi.class
+com\almosafer\apis\GetApis.class
+com\almosafer\base\Specs.class
+com\almosafer\models\Pojopost.class
+com\almosafer\data\Route.class
+com\almosafer\testcases\GetTest.class
+com\almosafer\testcases\PostTest.class

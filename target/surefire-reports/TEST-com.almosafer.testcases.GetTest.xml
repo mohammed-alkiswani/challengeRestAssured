@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.almosafer.testcases.GetTest" time="4.548" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\test-classes;C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\classes;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ADMIN\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ADMIN\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ADMIN\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ADMIN\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ADMIN\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ADMIN\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Amman"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMIN\AppData\Local\Temp\surefire7615050734218477532\surefirebooter-20230324171720754_3.jar C:\Users\ADMIN\AppData\Local\Temp\surefire7615050734218477532 2023-03-24T17-17-20_413-jvmRun1 surefire-20230324171720754_1tmp surefire_0-20230324171720754_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\test-classes;C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured\target\classes;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ADMIN\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ADMIN\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ADMIN\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ADMIN\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ADMIN\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ADMIN\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ADMIN\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ADMIN\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ADMIN\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ADMIN\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ADMIN\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar;C:\Users\ADMIN\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-junit-platform\2.21.0\allure-junit-platform-2.21.0.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ADMIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\ADMIN\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\ADMIN\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ADMIN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMIN\AppData\Local\Temp\surefire7615050734218477532\surefirebooter-20230324171720754_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="ADMIN"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ADMIN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMIN\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="C:\Users\ADMIN\IdeaProjects\Challenge-RestAssured"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\ADMIN\AppData\Local\Android\Sdk\tools;C:\Users\ADMIN\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Users\ADMIN\AppData\Local\Android\Sdk\tools\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\ADMIN\OneDrive\Desktop\Maven\apache-maven-3.9.1\bin;C:\Users\ADMIN\scoop\shims;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;;C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ADMIN\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="verification_GET_airline" classname="com.almosafer.testcases.GetTest" time="3.709">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.almosafer.com/api/flight/resource/codes/AQJ%2CAMM%2CRJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 24 Mar 2023 15:17:25 GMT
+Content-Type: application/json
+Content-Length: 322
+Connection: keep-alive
+X-Real-IP: 109.107.230.202
+CF-Ray: 7acfe17ec8a1cdf3-AMM
+Access-Control-Allow-Origin: www.almosafer.com
+Cache-Control: must-revalidate, post-check=0, pre-check=0, private
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding, Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'self'; frame-ancestors https://almosafer.com https://*.almosafer.com https://z2.le.liveperson.net;
+Pragma: no-cache
+Referrer-Policy: no-referrer-when-downgrade
+X-Adebug-host: flight-api-live-internal-endpoint.tajawal.com
+X-Adebug-host: www.almosafer.com
+X-Adebug-port: 80
+X-Adebug-port: 80
+X-Adebug-real-ip: 10.160.225.208
+X-Adebug-real-ip: 10.160.238.205
+X-Adebug-ruri: /flight/resource/codes/AQJ%2CAMM%2CRJ
+X-Adebug-ruri: /api/flight/resource/codes/AQJ%2CAMM%2CRJ
+X-Alimit-rpath: /flight/resource/codes/AQJ%2CAMM%2CRJ
+X-Alimit-rpath: /api/flight/resource/codes/AQJ%2CAMM%2CRJ
+X-ARuntime: 0.025
+X-ARuntime: 0.053
+X-AServed-By: 10.160.165.3
+X-AServed-By: 10.160.76.124
+X-Aus: 127.0.0.1:9002
+X-Aus: 127.0.0.1:9002
+X-Content-Type-Options: nosniff
+x-encoded-content-encoding: gzip
+x-encoded-content-length: 312
+X-GeoIP-City: Irbid
+X-GeoIP-Country: Jordan
+X-GeoIP-Country-Code: JO
+X-GeoIP-Region: Irbid
+X-is-bot-api: 0
+X-is-bot-api: 0
+x-real-client-ip: 109.107.230.202
+X-XSS-Protection: 1; mode=block
+Set-Cookie: __cf_bm=GOKHH_OwgP7mZRG2MifyfZvm9_z2lIHbKJ8U6OeKFC4-1679671045-0-AbuGd+fAi/qdibB5JBKVS44xDHR3k6JKIyCFQI7vZIh/p8HClxV5y0G8lX2WdLYGAGW1kr+T8gz6Y7hWA2nMmNE=; path=/; expires=Fri, 24-Mar-23 15:47:25 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "airline": [
+        {
+            "code": "RJ",
+            "label": {
+                "en": "Royal Jordanian",
+                "ar": "الخطوط الجوية الملكية الأردنية"
+            }
+        }
+    ],
+    "airport": [
+        {
+            "code": "AQJ",
+            "tz": "Asia/Amman",
+            "timeZone": "2.00",
+            "type": "4",
+            "label": {
+                "en": "King Hussein International Airport",
+                "ar": "مطار العقبة"
+            },
+            "country": {
+                "label": {
+                    "en": "Jordan",
+                    "ar": "الأردن"
+                },
+                "code": "JO"
+            },
+            "city": {
+                "en": "Aqaba",
+                "ar": "العقبة"
+            }
+        },
+        {
+            "code": "AMM",
+            "tz": "Asia/Amman",
+            "timeZone": "2.00",
+            "type": "2",
+            "label": {
+                "en": "Queen Alia International Airport",
+                "ar": "مطار الملكة علياء الدولي"
+            },
+            "country": {
+                "label": {
+                    "en": "Jordan",
+                    "ar": "الأردن"
+                },
+                "code": "JO"
+            },
+            "city": {
+                "en": "Amman",
+                "ar": "عمان"
+            }
+        }
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="verification_GET_airport" classname="com.almosafer.testcases.GetTest" time="0.798">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://www.almosafer.com/api/flight/resource/codes/AQJ%2CAMM%2CRJ
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 24 Mar 2023 15:17:26 GMT
+Content-Type: application/json
+Content-Length: 322
+Connection: keep-alive
+X-Real-IP: 109.107.230.202
+CF-Ray: 7acfe18aa801ce0b-AMM
+Access-Control-Allow-Origin: www.almosafer.com
+Cache-Control: must-revalidate, post-check=0, pre-check=0, private
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding, Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'self'; frame-ancestors https://almosafer.com https://*.almosafer.com https://z2.le.liveperson.net;
+Pragma: no-cache
+Referrer-Policy: no-referrer-when-downgrade
+X-Adebug-host: flight-api-live-internal-endpoint.tajawal.com
+X-Adebug-host: www.almosafer.com
+X-Adebug-port: 80
+X-Adebug-port: 80
+X-Adebug-real-ip: 10.160.203.15
+X-Adebug-real-ip: 10.160.195.92
+X-Adebug-ruri: /flight/resource/codes/AQJ%2CAMM%2CRJ
+X-Adebug-ruri: /api/flight/resource/codes/AQJ%2CAMM%2CRJ
+X-Alimit-rpath: /flight/resource/codes/AQJ%2CAMM%2CRJ
+X-Alimit-rpath: /api/flight/resource/codes/AQJ%2CAMM%2CRJ
+X-ARuntime: 0.024
+X-ARuntime: 0.053
+X-AServed-By: 10.160.165.3
+X-AServed-By: 10.160.193.119
+X-Aus: 127.0.0.1:9002
+X-Aus: 127.0.0.1:9002
+X-Content-Type-Options: nosniff
+x-encoded-content-encoding: gzip
+x-encoded-content-length: 312
+X-GeoIP-City: Irbid
+X-GeoIP-Country: Jordan
+X-GeoIP-Country-Code: JO
+X-GeoIP-Region: Irbid
+X-is-bot-api: 0
+X-is-bot-api: 0
+x-real-client-ip: 109.107.230.202
+X-XSS-Protection: 1; mode=block
+Set-Cookie: __cf_bm=4Z37WHy2kRSf.wi0IYIdNxuz_52JwzRqIvTQ3Sa24Yw-1679671046-0-AUECkN33qOQ6S0w5Gqy3ngPWkiviD7YhdMempmm9VNXM73MU68/6uGBs0PIOfL7XbURmmLp+RSCE5nwr9t9u628=; path=/; expires=Fri, 24-Mar-23 15:47:26 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "airline": [
+        {
+            "code": "RJ",
+            "label": {
+                "en": "Royal Jordanian",
+                "ar": "الخطوط الجوية الملكية الأردنية"
+            }
+        }
+    ],
+    "airport": [
+        {
+            "code": "AQJ",
+            "tz": "Asia/Amman",
+            "timeZone": "2.00",
+            "type": "4",
+            "label": {
+                "en": "King Hussein International Airport",
+                "ar": "مطار العقبة"
+            },
+            "country": {
+                "label": {
+                    "en": "Jordan",
+                    "ar": "الأردن"
+                },
+                "code": "JO"
+            },
+            "city": {
+                "en": "Aqaba",
+                "ar": "العقبة"
+            }
+        },
+        {
+            "code": "AMM",
+            "tz": "Asia/Amman",
+            "timeZone": "2.00",
+            "type": "2",
+            "label": {
+                "en": "Queen Alia International Airport",
+                "ar": "مطار الملكة علياء الدولي"
+            },
+            "country": {
+                "label": {
+                    "en": "Jordan",
+                    "ar": "الأردن"
+                },
+                "code": "JO"
+            },
+            "city": {
+                "en": "Amman",
+                "ar": "عمان"
+            }
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+</testsuite>
